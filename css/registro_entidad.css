@@ -1,0 +1,162 @@
+body{
+    background-image:  url(../img/foto_de_fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+button{
+    border-radius: 10px;
+}
+
+.navbar-nav a:hover {
+    background-color: #04AA6D;;
+}
+
+    
+
+.container{
+    font-family: 'ROBOTO';
+    width: 90%;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.container h1 {
+  
+    text-align: center;
+    color: white;
+
+}
+.container h1:hover {
+  
+    text-align: center;
+    color: white;
+    box-shadow: 0 5px 15px blue;
+    transform: translateY(-3px);
+
+}
+
+
+
+/*--------formulario---------*/
+
+form {
+    padding: 5px;
+    background: white;
+    box-shadow: 0 0 6px 0 rgba(255,255,255, 0.8);
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 80%;
+    max-width: 800px;
+    margin-top: 2.8rem;
+    margin-right: auto;
+    margin-left: auto;
+ 
+}
+form:hover {
+    box-shadow: 0 5px 15px blue;
+    transform: translateY(-14px);
+}
+
+form .campo {
+    position: relative;
+    margin: 15px;
+ 
+  }
+
+
+input {
+    background: none;
+    color: gray;
+    font-size: 18px;
+    padding: 10px 10px 10px 5px;
+    display: block;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid green;
+   
+    
+
+}
+input:focus {
+    outline: none;
+    color: rgba(94,93,03);
+    
+}
+label {
+    color: gray;
+    font-size: 16px;
+    position: absolute;
+    bottom: 0;
+    left: 5px;
+    top: 10px;
+    transition: 0.5s ease-in-out all;
+    pointer-events: none;
+
+
+}
+input:focus~label,
+input:valid~label {
+    top: -14px;
+    font-size: 12px;
+    color: blue;
+
+}
+.barra {
+    position: relative;
+    display: block;
+    width: 100%;
+}
+
+.barra::before {
+    content: "";
+    height: 2px;
+    width: 0%;
+    bottom: 0;
+    position: absolute;
+    background: linear-gradient(to right, #D6A4A4, #DAE2F8);
+    transition: 0.3s ease with;
+    left: 0;
+}
+input:focus~.barra::before {
+    width: 100%;
+    
+}
+
+button {
+    border: none;
+    display: block;
+    width: 80%;
+    margin: 10px auto;
+    height: 40px;
+    color: black;
+    font-size: 16px;
+    cursor: pointer;
+    font-family: 'roboto';
+    background: #e63946;  /* fallback for old browsers */
+}
+button:hover {
+    box-shadow: 0 5px 15px blue;
+    transform: translateY(-3px);
+}
+
+ form a{
+    border: none;
+    display: block;
+    width: 80%;
+    margin: 0px auto;
+    height: 40px;
+    color: black;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+
+ }
+
+
+
