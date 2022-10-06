@@ -10,10 +10,11 @@ import java.sql.DriverManager;
 public class DBConnection {
     
         Connection connection;
-    static String bd = "id19667320_dbparqueadero";
+    static String bd = "sql10524486";
     static String port = "3306";
-    static String login = "id19667320_dbparqueadero1;
-    static String password = "rq}gHbBjgONy$DY0";
+    static String login = "sql10524486";
+    static String password = "Yuql3R2NsX";
+    
     
     public DBConnection(){
         try{
